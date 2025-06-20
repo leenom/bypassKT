@@ -27,6 +27,24 @@ iptime/ASUSWRT/OpenWrt/넷기어/시놀로지RT/기업용 브랜드 지원
 
 --------------------------------
 
+Tplink Router 
+
+TPLINK 라우터는 최근 5월에 있었던 최신 펌웨어를 다운 받아서 업데이트를 하면 Option 60을 사용할 수 있습니다.
+
+ER605 기준으로 라우터 관리자 페이지에 접속한 후 로그인을 진행하세요,
+
+이후 좌측 메뉴에서 Network 탭을 눌러 WAN으로 들어갑니다.
+
+WAN1을 누른 뒤 Advanced Settings를 찾아주세요. 이것을 누르면 탭이 하나 열리는데, 여기서 Option 60에 
+
+KT_PR_HH_A_A
+
+이를 입력하여 준 뒤에 Save를 해주세요. 
+
+다른 Tplink 라우터 및 공유기에 대해서 성공 사례가 있다면 krfoss@krfoss.org로 알려주세요. 
+
+--------------------------------
+
 ASUSWRT(아수스 공유기, 이중 NAT 구성에서 사용할 수 없음) - http://www.asusrouter.com 에서 초기 설정 시 입력한 관리자 계정과 암호를 입력 후
  1. 아래 링크의 자동 IP - c단락을 참고하거나,
  2. 아래 스크린샷을 참고하여
@@ -153,24 +171,6 @@ http://192.168.0.1/sess-bin/d.cgi?act=1&fname=&aaksjdkfj=!@dnjsrurelqjrm*%26&dap
 <img width="333" alt="iptime2" src="https://github.com/user-attachments/assets/fa6ee8d4-9990-4f80-8d70-8ad551737b36" />
 
 성공적으로 프리미엄 IP를 취득했거나 실패했다면 기기 모델명과 펌웨어 버전, 미러 다운로드 주소 사용여부, 실패 시 출력되는 메세지를 3570kgen@naver.com 에 제보하는 것을 고려해보세요.
-
---------------------------------
-
-Tplink Router 
-
-TPLINK 라우터는 최근 5월에 있었던 최신 펌웨어를 다운 받아서 업데이트를 하면 Option 60을 사용할 수 있습니다.
-
-ER605 기준으로 라우터 관리자 페이지에 접속한 후 로그인을 진행하세요,
-
-이후 좌측 메뉴에서 Network 탭을 눌러 WAN으로 들어갑니다.
-
-WAN1을 누른 뒤 Advanced Settings를 찾아주세요. 이것을 누르면 탭이 하나 열리는데, 여기서 Option 60에 
-
-KT_PR_HH_A_A
-
-이를 입력하여 준 뒤에 Save를 해주세요. 
-
-다른 Tplink 라우터 및 공유기에 대해서 성공 사례가 있다면 krfoss@krfoss.org로 알려주세요. 
 
 --------------------------------
 
