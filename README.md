@@ -27,7 +27,7 @@ ROKFOSS 프로젝트에서 추가한 부분에 대해서 문의가 있거나 새
     ```
 5.  입력 후, **Save**를 클릭하여 설정을 저장합니다.
 
-**참고:** 다른 TP-Link 라우터나 공유기에서 Option 60을 성공적으로 설정한 사례가 있다면, **[krfoss@krfoss.org](mailto:krfoss@krfoss.org)**로 이메일을 보내주세요.
+**참고:** 다른 TP-Link 라우터나 공유기에서 Option 60을 성공적으로 설정한 사례가 있다면, [krfoss@krfoss.org](mailto:krfoss@krfoss.org)로 이메일을 보내주세요.
 
 ## OPNsense
 
