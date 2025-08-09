@@ -3,7 +3,7 @@
 
 ## ROKFOSS 프로젝트에서 일부 수정하였습니다
 
-이 글은 ROKFOSS 프로젝트에서 일부 수정한 것입니다. 원본에는 없는 부분이 있을 수 있습니다.
+이 글은 ROKFOSS 프로젝트에서 일부 수정한 것입니다. [원본](https://github.com/veilRedeemer/bypassQoSKoreatelecomISP)에는 없는 부분이 있을 수 있습니다.
 
 아래 방법은 KT 사용자들에게만 유효하며 LGU+ 및 SKB는 사용할 수 없습니다. LGU+ 경우 현재까지 알려진 방법은 없습니다. 만약 우회가 필요하다면 KT 또는 SKB(대칭형)으로 인터넷을 바꾸는 것도 방법이 될 수 있습니다.
 
