@@ -27,8 +27,6 @@ ROKFOSS 프로젝트에서 추가한 부분에 대해서 문의가 있거나 새
     ```
 5.  입력 후, **Save**를 클릭하여 설정을 저장합니다.
 
-<img width="900" height="1060" alt="image" src="https://github.com/user-attachments/assets/3b6051b2-1058-4d6e-a7f6-25ec6a0d558b" />
-
 **참고:** 다른 TP-Link 라우터나 공유기에서 Option 60을 성공적으로 설정한 사례가 있다면, **[krfoss@krfoss.org](mailto:krfoss@krfoss.org)**로 이메일을 보내주세요.
 
 ## OPNsense
@@ -41,6 +39,8 @@ OPNsense에서 WAN 인터페이스에 Option 60을 추가하려면 다음과 같
 4.  변경 사항을 완료한 후, **Save** 버튼을 클릭하여 저장합니다.
 
 이렇게 하면 WAN 인터페이스에 Option 60을 성공적으로 추가할 수 있습니다.
+
+<img width="900" height="1060" alt="image" src="https://github.com/user-attachments/assets/3b6051b2-1058-4d6e-a7f6-25ec6a0d558b" />
 
 
 ## KT GiGA WiFi (통신사 Router, 기본값 설정인 KT 모드가 필요)
