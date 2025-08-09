@@ -282,6 +282,36 @@ https://archive.md/VRZIO
 
 --------------------------------
 
+MikroTik(미크로틱 라우터) -
+
+예시 사용기기: MikroTik Hap AX3(C53UiG+5HPaxD2HPaxD)
+
+<img width="575" height="726" alt="Image" src="https://github.com/user-attachments/assets/2704f43a-06bf-420f-ab66-77005a3cd93c" />
+
+1. WinBox 접속후 우측 메뉴에서 IP -> DHCP Client로 이동.
+
+<img width="766" height="467" alt="Image" src="https://github.com/user-attachments/assets/bb6cdd37-e5ba-4680-8e7b-c2928cadda2c" />
+
+2. 상단 메뉴인 DHCP Client Options 로 진입 이후 이미지와 같이 설정. (단 value 값은 **반드시 작은따옴표**로 감싸야 함)
+
+| 항목 | 값 |
+| ------------- | ------------- |
+| Name  | 사용자 마음대로  |
+| Code | 60  |
+| Value | 'KT_PR_HH_A_TNIE_TI04-708H' (예시)  |
+
+<img width="1144" height="673" alt="Image" src="https://github.com/user-attachments/assets/9bcc4575-72e2-4066-878b-720a306240ed" />
+
+3. 2번에서 지정한 메뉴 옆의 DHCP Client를 눌러준 뒤 사용중인 인터페이스 클릭.
+
+이후 상단의 Advanced 메뉴로 진입 후 DHCP Options에 2번에서 설정한 타입 지정 후 저장. (이미지 참고)
+
+
+
+이후에 라우터를 재부팅 하면 IP가 KT 프리미엄 IP로 변경 됩니다.
+
+--------------------------------
+
 iptime(알파테스트중)
 
 백도어 출처 - https://github.com/tylzars/iptime-debug - 펌웨어 버전 15.10.0, ipTIME A2004S에서 동작 확인됨
