@@ -73,6 +73,11 @@ OPNsense에서 WAN 인터페이스에 Option 60을 추가하려면 다음과 같
 
 이후에 라우터를 재부팅 하면 IP가 KT 프리미엄 IP로 변경 됩니다.
 
+# 아래부터는 ROKFOSS 프로젝트에서 관리하지 않는 부분입니다.
+
+> [!WARNING]
+> 가정용 공유기는 [원본](https://github.com/veilRedeemer/bypassQoSKoreatelecomISP) 문서에서 확인하실 수 있습니다.
+
 
 ## KT GiGA WiFi (통신사 Router, 기본값 설정인 KT 모드가 필요)
 제한에서 벗어날 <ins>**각 기기**</ins>(이중 NAT 구성의 미지원 Router 포함)에 대해 수동IP설정 **또는** GiGA WiFi의 사용자 설정 웹 페이지에서 '수동 IP 할당 설정'(DHCP 정적 할당) 설정을 마치세요
