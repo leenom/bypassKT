@@ -76,37 +76,3 @@ OPNsense에서 WAN 인터페이스에 Option 60을 추가하려면 다음과 같
 
 이후에 라우터를 재부팅 하면 IP가 KT 프리미엄 IP로 변경 됩니다.
 
-# 아래부터는 ROKFOSS 프로젝트에서 관리하지 않는 부분입니다.
-
-> [!WARNING]
-> 가정용 공유기는 [원본](https://github.com/veilRedeemer/bypassQoSKoreatelecomISP) 문서에서 확인하실 수 있습니다.
-
-
-## KT GiGA WiFi (통신사 Router, 기본값 설정인 KT 모드가 필요)
-제한에서 벗어날 <ins>**각 기기**</ins>(이중 NAT 구성의 미지원 Router 포함)에 대해 수동IP설정 **또는** GiGA WiFi의 사용자 설정 웹 페이지에서 '수동 IP 할당 설정'(DHCP 정적 할당) 설정을 마치세요
-
-아래 표를 확인하여 현재 사용중인 모델의 KT GiGA WiFi에서 사용 가능여부(추측 포함)를 확인하기\:
-
-|＼|수동IP설정|수동 IP 할당 설정|업그레이드,TR069 차단|
-|---------:|:--|:--|:--|
-|KM06-506H, KM06-704H|？|✕|？|
-|DW02-412H|？|✕|✕|
-|KM08-708H, DV01-901H<br>Wave2|？|？|？|
-|TI04-708H Wave2|〇|✕|✕|
-|KM12-007H<br>GiGA WiFi home ax|？|？|？|
-|KM17-305H<br>GiGA WiFi home ax|〇|〇|？|
-|KM15-103H<br>GiGA WiFi home ax|〇|〇|〇|
-|DV02-012H<br>GiGA WiFi home ax|〇|〇|✕|
-|HR08-407H<br>GiGA WiFi home ax|〇|✕|〇|
-|AR06-012H<br>GiGA WiFi home ax|〇|✕|✕|
-|KM18-311H<br>KT WiFi 6D|？|？|？|
-|KB01-411H<br>KT WiFi 7D|？|？|？|
-
-__표에서 확인할 수 없는 모델의 각 기능 사용 가능여부를 여러분의 제보(Issues, 메일주소 3570kgen@naver.com , 기여자에 대한 기록을 남기고 싶을경우 Pull Request 등)를 통해 보충할 수 있게 해주세요!__
-
-__사용중인 기기의 모델명, 펌웨어 버전, 수동IP설정, '수동 IP 할당 설정'의 성공 여부,__
-__KT GiGA WiFi 사용자 설정 페이지 - 상태정보의 로그('Update' 또는 'Upgrade' 등의 문자열을 포함하는 로그 확인, 부팅 후 많은 시간이 지나면 다른 로그에 의해 확인할 수 없는 경우가 있음)를 확인한 후, 'Update' 또는 'Upgrade' 등의 문자열을 포함하는 로그가 아래의 4가지 규칙 추가 & 재부팅 후 2-5분 후에 기록되는 로그와 비교해 차이점이 있는지 확인하고 알려주셨으면 합니다.__
-
--
-
---------------------------------
